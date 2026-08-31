@@ -119,4 +119,4 @@ src/
 
 ## Licencia
 
-Proyecto privado. No se concede permiso de redistribución o uso comercial por terceros salvo autorización expresa del propietario.
+Código fuente publicado para demostración y evaluación profesional. No se concede permiso de redistribución, reventa o uso comercial por terceros salvo autorización expresa del propietario. Consulta `LICENSE.md`.
