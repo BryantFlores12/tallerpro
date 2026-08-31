@@ -1,0 +1,12 @@
+const router = require('express').Router();
+router.use('/auth', require('./auth.routes'));
+router.use('/clientes', require('./clientes.routes'));
+router.use('/vehiculos', require('./vehiculos.routes'));
+router.use('/ordenes', require('./ordenes.routes'));
+router.use('/bitacora', require('./bitacora.routes'));
+router.use('/inventario', require('./inventario.routes'));
+router.use('/cotizaciones', require('./cotizaciones.routes'));
+router.use('/tareas', require('./tareas.routes'));
+router.use('/dashboard', require('./dashboard.routes'));
+router.use('/public', require('./public.routes'));
+module.exports = router;
